@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877719F7188C752800EDC19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877719F6188C752800EDC19C /* Foundation.framework */; };
+		877719F9188C752800EDC19C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877719F8188C752800EDC19C /* CoreGraphics.framework */; };
+		877719FB188C752800EDC19C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877719FA188C752800EDC19C /* UIKit.framework */; };
+		87771A01188C752800EDC19C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877719FF188C752800EDC19C /* InfoPlist.strings */; };
+		87771A03188C752800EDC19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87771A02188C752800EDC19C /* main.m */; };
+		87771A07188C752800EDC19C /* SEMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87771A06188C752800EDC19C /* SEMAppDelegate.m */; };
+		87771A0A188C752800EDC19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87771A08188C752800EDC19C /* Main.storyboard */; };
+		87771A0D188C752800EDC19C /* SEMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87771A0C188C752800EDC19C /* SEMViewController.m */; };
+		87771A0F188C752800EDC19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87771A0E188C752800EDC19C /* Images.xcassets */; };
+		87771A16188C752800EDC19C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87771A15188C752800EDC19C /* XCTest.framework */; };
+		87771A17188C752800EDC19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877719F6188C752800EDC19C /* Foundation.framework */; };
+		87771A18188C752800EDC19C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877719FA188C752800EDC19C /* UIKit.framework */; };
+		87771A20188C752800EDC19C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87771A1E188C752800EDC19C /* InfoPlist.strings */; };
+		87771A22188C752800EDC19C /* VoiceOverPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87771A21188C752800EDC19C /* VoiceOverPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87771A19188C752800EDC19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877719EB188C752800EDC19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877719F2188C752800EDC19C;
+			remoteInfo = VoiceOverPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877719F3188C752800EDC19C /* VoiceOverPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceOverPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877719F6188C752800EDC19C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		877719F8188C752800EDC19C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		877719FA188C752800EDC19C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		877719FE188C752800EDC19C /* VoiceOverPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceOverPicker-Info.plist"; sourceTree = "<group>"; };
+		87771A00188C752800EDC19C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87771A02188C752800EDC19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87771A04188C752800EDC19C /* VoiceOverPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceOverPicker-Prefix.pch"; sourceTree = "<group>"; };
+		87771A05188C752800EDC19C /* SEMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMAppDelegate.h; sourceTree = "<group>"; };
+		87771A06188C752800EDC19C /* SEMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMAppDelegate.m; sourceTree = "<group>"; };
+		87771A09188C752800EDC19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87771A0B188C752800EDC19C /* SEMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEMViewController.h; sourceTree = "<group>"; };
+		87771A0C188C752800EDC19C /* SEMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEMViewController.m; sourceTree = "<group>"; };
+		87771A0E188C752800EDC19C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87771A14188C752800EDC19C /* VoiceOverPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceOverPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87771A15188C752800EDC19C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87771A1D188C752800EDC19C /* VoiceOverPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceOverPickerTests-Info.plist"; sourceTree = "<group>"; };
+		87771A1F188C752800EDC19C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87771A21188C752800EDC19C /* VoiceOverPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceOverPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877719F0188C752800EDC19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877719F9188C752800EDC19C /* CoreGraphics.framework in Frameworks */,
+				877719FB188C752800EDC19C /* UIKit.framework in Frameworks */,
+				877719F7188C752800EDC19C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771A11188C752800EDC19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771A16188C752800EDC19C /* XCTest.framework in Frameworks */,
+				87771A18188C752800EDC19C /* UIKit.framework in Frameworks */,
+				87771A17188C752800EDC19C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877719EA188C752800EDC19C = {
+			isa = PBXGroup;
+			children = (
+				877719FC188C752800EDC19C /* VoiceOverPicker */,
+				87771A1B188C752800EDC19C /* VoiceOverPickerTests */,
+				877719F5188C752800EDC19C /* Frameworks */,
+				877719F4188C752800EDC19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877719F4188C752800EDC19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877719F3188C752800EDC19C /* VoiceOverPicker.app */,
+				87771A14188C752800EDC19C /* VoiceOverPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877719F5188C752800EDC19C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877719F6188C752800EDC19C /* Foundation.framework */,
+				877719F8188C752800EDC19C /* CoreGraphics.framework */,
+				877719FA188C752800EDC19C /* UIKit.framework */,
+				87771A15188C752800EDC19C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877719FC188C752800EDC19C /* VoiceOverPicker */ = {
+			isa = PBXGroup;
+			children = (
+				87771A05188C752800EDC19C /* SEMAppDelegate.h */,
+				87771A06188C752800EDC19C /* SEMAppDelegate.m */,
+				87771A08188C752800EDC19C /* Main.storyboard */,
+				87771A0B188C752800EDC19C /* SEMViewController.h */,
+				87771A0C188C752800EDC19C /* SEMViewController.m */,
+				87771A0E188C752800EDC19C /* Images.xcassets */,
+				877719FD188C752800EDC19C /* Supporting Files */,
+			);
+			path = VoiceOverPicker;
+			sourceTree = "<group>";
+		};
+		877719FD188C752800EDC19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877719FE188C752800EDC19C /* VoiceOverPicker-Info.plist */,
+				877719FF188C752800EDC19C /* InfoPlist.strings */,
+				87771A02188C752800EDC19C /* main.m */,
+				87771A04188C752800EDC19C /* VoiceOverPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87771A1B188C752800EDC19C /* VoiceOverPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				87771A21188C752800EDC19C /* VoiceOverPickerTests.m */,
+				87771A1C188C752800EDC19C /* Supporting Files */,
+			);
+			path = VoiceOverPickerTests;
+			sourceTree = "<group>";
+		};
+		87771A1C188C752800EDC19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87771A1D188C752800EDC19C /* VoiceOverPickerTests-Info.plist */,
+				87771A1E188C752800EDC19C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877719F2188C752800EDC19C /* VoiceOverPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87771A25188C752800EDC19C /* Build configuration list for PBXNativeTarget "VoiceOverPicker" */;
+			buildPhases = (
+				877719EF188C752800EDC19C /* Sources */,
+				877719F0188C752800EDC19C /* Frameworks */,
+				877719F1188C752800EDC19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceOverPicker;
+			productName = VoiceOverPicker;
+			productReference = 877719F3188C752800EDC19C /* VoiceOverPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87771A13188C752800EDC19C /* VoiceOverPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87771A28188C752800EDC19C /* Build configuration list for PBXNativeTarget "VoiceOverPickerTests" */;
+			buildPhases = (
+				87771A10188C752800EDC19C /* Sources */,
+				87771A11188C752800EDC19C /* Frameworks */,
+				87771A12188C752800EDC19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87771A1A188C752800EDC19C /* PBXTargetDependency */,
+			);
+			name = VoiceOverPickerTests;
+			productName = VoiceOverPickerTests;
+			productReference = 87771A14188C752800EDC19C /* VoiceOverPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877719EB188C752800EDC19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Steve Moser";
+				TargetAttributes = {
+					87771A13188C752800EDC19C = {
+						TestTargetID = 877719F2188C752800EDC19C;
+					};
+				};
+			};
+			buildConfigurationList = 877719EE188C752800EDC19C /* Build configuration list for PBXProject "VoiceOverPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877719EA188C752800EDC19C;
+			productRefGroup = 877719F4188C752800EDC19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877719F2188C752800EDC19C /* VoiceOverPicker */,
+				87771A13188C752800EDC19C /* VoiceOverPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877719F1188C752800EDC19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771A0F188C752800EDC19C /* Images.xcassets in Resources */,
+				87771A01188C752800EDC19C /* InfoPlist.strings in Resources */,
+				87771A0A188C752800EDC19C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771A12188C752800EDC19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771A20188C752800EDC19C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877719EF188C752800EDC19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771A07188C752800EDC19C /* SEMAppDelegate.m in Sources */,
+				87771A03188C752800EDC19C /* main.m in Sources */,
+				87771A0D188C752800EDC19C /* SEMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87771A10188C752800EDC19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87771A22188C752800EDC19C /* VoiceOverPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87771A1A188C752800EDC19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877719F2188C752800EDC19C /* VoiceOverPicker */;
+			targetProxy = 87771A19188C752800EDC19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877719FF188C752800EDC19C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87771A00188C752800EDC19C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87771A08188C752800EDC19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87771A09188C752800EDC19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87771A1E188C752800EDC19C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87771A1F188C752800EDC19C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87771A23188C752800EDC19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87771A24188C752800EDC19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87771A26188C752800EDC19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceOverPicker/VoiceOverPicker-Prefix.pch";
+				INFOPLIST_FILE = "VoiceOverPicker/VoiceOverPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87771A27188C752800EDC19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceOverPicker/VoiceOverPicker-Prefix.pch";
+				INFOPLIST_FILE = "VoiceOverPicker/VoiceOverPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87771A29188C752800EDC19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceOverPicker.app/VoiceOverPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceOverPicker/VoiceOverPicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceOverPickerTests/VoiceOverPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87771A2A188C752800EDC19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceOverPicker.app/VoiceOverPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceOverPicker/VoiceOverPicker-Prefix.pch";
+				INFOPLIST_FILE = "VoiceOverPickerTests/VoiceOverPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877719EE188C752800EDC19C /* Build configuration list for PBXProject "VoiceOverPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87771A23188C752800EDC19C /* Debug */,
+				87771A24188C752800EDC19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87771A25188C752800EDC19C /* Build configuration list for PBXNativeTarget "VoiceOverPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87771A26188C752800EDC19C /* Debug */,
+				87771A27188C752800EDC19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87771A28188C752800EDC19C /* Build configuration list for PBXNativeTarget "VoiceOverPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87771A29188C752800EDC19C /* Debug */,
+				87771A2A188C752800EDC19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877719EB188C752800EDC19C /* Project object */;
+}
